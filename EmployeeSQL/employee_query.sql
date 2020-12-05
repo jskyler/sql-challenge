@@ -1,4 +1,15 @@
 
+
+SELECT * FROM titles LIMIT 10;
+SELECT * FROM employees LIMIT 10;
+SELECT * FROM salaries LIMIT 10;
+SELECT * FROM departments LIMIT 10;
+SELECT * FROM dept_manager LIMIT 10;
+SELECT * FROM dept_emp LIMIT 10;
+SELECT COUNT(*) FROM employees;
+
+
+
 --List the following details of each employee: employee number, last name, first name, sex, and salary.
 SELECT employees.emp_no, last_name, first_name, sex, salary
 FROM employees
