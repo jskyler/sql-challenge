@@ -64,3 +64,10 @@ SELECT last_name, COUNT(*)
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(*) DESC
+
+
+--"Search your ID number." 
+SELECT emp_no, last_name, first_name, birth_date, sex, hire_date
+FROM employees
+WHERE emp_no = 499942
+
