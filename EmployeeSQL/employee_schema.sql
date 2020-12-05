@@ -68,10 +68,3 @@ REFERENCES "titles" ("title_id");
 ALTER TABLE "salaries" ADD CONSTRAINT "fk_salaries_emp_no" FOREIGN KEY("emp_no")
 REFERENCES "employees" ("emp_no");
 
-SELECT * FROM titles LIMIT 10;
-SELECT * FROM employees LIMIT 10;
-SELECT * FROM salaries LIMIT 10;
-SELECT * FROM departments LIMIT 10;
-SELECT * FROM dept_manager LIMIT 10;
-SELECT * FROM dept_emp LIMIT 10;
-SELECT COUNT(*) FROM employees;
